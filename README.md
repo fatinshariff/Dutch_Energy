@@ -1,19 +1,19 @@
 This is a data analysis of Energy consumption in Netherlands where the data are taken from https://www.kaggle.com/lucabasa/dutch-energy. The detail of this dataset are as below quoted from the Kaggle page:
 
-    Enexis, Liander, and Stedin are the three major network administrators of the Netherlands and, together, they provide energy to nearly the entire country. Every year, they release on their websites a table with the energy consumption of the areas under their administration.
+> Enexis, Liander, and Stedin are the three major network administrators of the Netherlands and, together, they provide energy to nearly the entire country. Every year, they release on their websites a table with the energy consumption of the areas under their administration.
+>
+> The data are anonymized by aggregating the Zipcodes so that every entry describes at least 10 connections.
+>
+> This market is not competitive, meaning that the zones are assigned. This means that every year they roughly provide energy to the same zipcodes. Small changes can happen from year to year either for a change of management or for a different aggregation of zipcodes.
+>
+> Content:
+>
+> Every file contains information about groups of zipcodes managed by one of the three companies for a specific year.
+>
+> About this file:
+> Every file is from a network administrator from a specific year.
 
-    The data are anonymized by aggregating the Zipcodes so that every entry describes at least 10 connections.
-
-    This market is not competitive, meaning that the zones are assigned. This means that every year they roughly provide energy to the same zipcodes. Small changes can happen from year to year either for a change of management or for a different aggregation of zipcodes.
-
-     Content:
-
-    Every file contains information about groups of zipcodes managed by one of the three companies for a specific year.
-
-    About this file:
-    Every file is from a network administrator from a specific year.
-
-     The columns in each file are:
+The columns in each file are:
 
 * `net_manager` : code of the regional network manager
 * `purchase_area`: code of the area where the energy is purchased
