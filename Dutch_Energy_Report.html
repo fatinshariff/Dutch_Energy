@@ -13139,7 +13139,8 @@ div#notebook {
 <p>This market is not competitive, meaning that the zones are assigned. This means that every year they roughly provide energy to the same zipcodes. Small changes can happen from year to year either for a change of management or for a different aggregation of zipcodes.</p>
 <p>Every file contains information about groups of zipcodes managed by one of the three companies for a specific year.</p>
 </blockquote>
-<p>I used Jupyter Notebook for this whole analysis process.</p>
+<p>There is no particular reason why I chose this dataset. I wanted to improve my analysing skills and find that this dataset is suitable for my little project as I have never worked with multiple csv files which this dataset came with. In addition, I wanted to broaden my knowledge by analysing different dataset each time and in this case, it is about energy.</p>
+<p>note: I used Jupyter Notebook for this whole analysis process. This is just the report of the analysis and step by step of the analysis process is saved in another notebook.(<a href="https://github.com/fatinshariff/Dutch_Energy/blob/master/dutch_energy.ipynb">click here</a>)</p>
 
 </div>
 </div>
@@ -13564,21 +13565,21 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h1 id="list-all-the-question-and-explain-i-proceed-this-dataset-with-Qs-and-try-try-answer-them.">list all the question and explain i proceed this dataset with Qs and try try answer them.<a class="anchor-link" href="#list-all-the-question-and-explain-i-proceed-this-dataset-with-Qs-and-try-try-answer-them.">&#182;</a></h1>
+<h2 id="Data-Analysis-and-Visualisation">Data Analysis and Visualisation<a class="anchor-link" href="#Data-Analysis-and-Visualisation">&#182;</a></h2><p>My approach for analysing this dataset is by answering a few questions that I think would be interesting based on this dataset. They are as below:</p>
+<ol>
+<li>How are all three network administrators total connections for each year from 2010-2019?</li>
+<li>The total consumption of Electricity (kWh) and Gas (m3) across the years.</li>
+<li>What are the trend of the dutch people using renewable energy?</li>
+<li>Which City has high in electricity consumption? </li>
+</ol>
+
 </div>
 </div>
 </div>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h2 id="Data-Analysis-and-Visualisation">Data Analysis and Visualisation<a class="anchor-link" href="#Data-Analysis-and-Visualisation">&#182;</a></h2>
-</div>
-</div>
-</div>
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div><div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="How-are-all-three-network-administrators-total-connections-for-each-year-from-2010-2019?">How are all three network administrators total connections for each year from 2010-2019?<a class="anchor-link" href="#How-are-all-three-network-administrators-total-connections-for-each-year-from-2010-2019?">&#182;</a></h3>
+<h3 id="1.-How-are-all-three-network-administrators-total-connections-for-each-year-from-2010-2019?">1. How are all three network administrators total connections for each year from 2010-2019?<a class="anchor-link" href="#1.-How-are-all-three-network-administrators-total-connections-for-each-year-from-2010-2019?">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13618,7 +13619,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="The-total-consumption-of-Electricity-(kWh)-and-Gas-(m3)-across-the-years.">The total consumption of Electricity (kWh) and Gas (m3) across the years.<a class="anchor-link" href="#The-total-consumption-of-Electricity-(kWh)-and-Gas-(m3)-across-the-years.">&#182;</a></h3>
+<h3 id="2.-The-total-consumption-of-Electricity-(kWh)-and-Gas-(m3)-across-the-years.">2. The total consumption of Electricity (kWh) and Gas (m3) across the years.<a class="anchor-link" href="#2.-The-total-consumption-of-Electricity-(kWh)-and-Gas-(m3)-across-the-years.">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13667,7 +13668,7 @@ div#notebook {
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="What-are-the-trend-of-the-dutch-people-using-renewable-energy?">What are the trend of the dutch people using renewable energy?<a class="anchor-link" href="#What-are-the-trend-of-the-dutch-people-using-renewable-energy?">&#182;</a></h3>
+<h3 id="3.-What-are-the-trend-of-the-dutch-people-using-renewable-energy?">3. What are the trend of the dutch people using renewable energy?<a class="anchor-link" href="#3.-What-are-the-trend-of-the-dutch-people-using-renewable-energy?">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13765,7 +13766,7 @@ Name: renew_perc, dtype: float64</pre>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div><div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="Which-City-has-high-in-electricity-consumption?">Which City has high in electricity consumption?<a class="anchor-link" href="#Which-City-has-high-in-electricity-consumption?">&#182;</a></h3>
+<h3 id="4.-Which-City-has-high-in-electricity-consumption?">4. Which City has high in electricity consumption?<a class="anchor-link" href="#4.-Which-City-has-high-in-electricity-consumption?">&#182;</a></h3>
 </div>
 </div>
 </div>
@@ -13932,6 +13933,8 @@ Name: num_connections, dtype: float64</pre>
 <h2 id="Conclusions">Conclusions<a class="anchor-link" href="#Conclusions">&#182;</a></h2><p>Liander is the biggest network provider among those main three in Netherlands. The total connections for the electricity and gas are increasing slowly each year. The total consumption of energy for electricity has been increased since 2017 and for gas since 2016. The mean of energy consumption per connection has been decrease since 2010  consistently until 2017 and increased back in 2018. However it still recorded lower value compared to eight years ago.</p>
 <p>Not only that dutch people are using less energy on average, they even produced more energy back significantly since 2013. The increased in percentage of the energy given back each year for the past years show that more people are opting for solar energy.</p>
 <p>In terms of cities, the higher populated cities consumed more energy which we have been expected. Certain cities are showing reduction of total energy usage since 2014 like The Hague and Rotterdam and some cities's energy consumption don't differ much each year.</p>
+<p><em>NB: I hope you enjoy reading this report. Mind that my knowledge about this dataset is limited and I am not a dutch.  Overall, I had fun analysing this dataset. If you have ideas for improvement, please let me know.</em></p>
+<p>Cheers!</p>
 
 </div>
 </div>
