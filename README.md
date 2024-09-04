@@ -1,3 +1,5 @@
+## Overview
+
 This is a data analysis of energy consumption in Netherlands where the data are taken from https://www.kaggle.com/lucabasa/dutch-energy. The detail of this dataset are as below, quoted from the Kaggle page:
 
 > Enexis, Liander, and Stedin are the three major network administrators of the Netherlands and, together, they provide energy to nearly the entire country. Every year, they release on their websites a table with the energy consumption of the areas under their administration.
@@ -28,3 +30,12 @@ The columns in each file are:
 * `annual_consume`: Annual consume. Kwh for electricity, m3 for gas
 * `annual_consume_lowtarif_perc`: Percentage of consume during the low tarif hours. From 10 p.m. to 7 a.m. and during weekends.
 * `smartmeter_perc`: percentage of smartmeters in the zipcode ranges
+
+## Analysis
+
+My approach for analysing this dataset is by answering a few questions that I think would be interesting based on this dataset. They are as below:
+
+1. How are all three network administrators total connections for each year from 2010-2019?
+2. How is the total consumption of Electricity (kWh) and Gas (m3) across the years?
+3. What are the trend of the dutch people using renewable energy?
+4. Which City has high in electricity consumption?
