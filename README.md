@@ -1,5 +1,9 @@
+# Dutch Energy
+
 ## Overview
 
+Please [click here](https://fatinshariff.github.io/Dutch_Energy/2024/09/04/DutchEnergy.html) to visit the blogpost.
+ 
 This is a data analysis of energy consumption in Netherlands where the data are taken from https://www.kaggle.com/lucabasa/dutch-energy. The detail of this dataset are as below, quoted from the Kaggle page:
 
 > Enexis, Liander, and Stedin are the three major network administrators of the Netherlands and, together, they provide energy to nearly the entire country. Every year, they release on their websites a table with the energy consumption of the areas under their administration.
