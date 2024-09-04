@@ -1,9 +1,12 @@
-# Energy Consumption in Netherlands 
+---
+title: "Energy Consumption in Netherlands "
+date: 2024-09-04
+---
 
 
-![elec.jpg](elec.jpg)
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/elec.jpg?raw=true)
                                                                                   
-                                                                                    Image from www.shutterstock.com
+                                                            Image from www.shutterstock.com
 
 ## Introduction to Dataset
 
@@ -17,7 +20,6 @@ From the [dataset page](https://www.kaggle.com/lucabasa/dutch-energy):
 
 >Every file contains information about groups of zipcodes managed by one of the three companies for a specific year.
 
-There is no particular reason why I chose this dataset. I wanted to improve my analysing skills and find that this dataset is suitable for my little project as I have never worked with multiple csv files which this dataset came with. In addition, I wanted to broaden my knowledge by analysing different dataset each time and in this case, it is about energy.
 
 note: I used Jupyter Notebook for this whole analysis process. This is just the report of the analysis and step by step of the analysis process is saved in another notebook.([click here](https://github.com/fatinshariff/Dutch_Energy/blob/master/dutch_energy.ipynb))
 
@@ -417,7 +419,7 @@ plt.show()
 
 
     
-![png](output_15_0.png)
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/output_15_0.png?raw=true)
     
 
 
@@ -466,8 +468,7 @@ plt.show()
 
 
     
-![png](output_19_0.png)
-    
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/output_19_0.png?raw=true)
 
 
 It is interesting to see that the trend of the total energy and gas consumption increases from 2010 to 2012 then continuously drop to the lowest level in 2016 for electricity and 2017 for the gas (left plots). After that the trend increases back and year 2018 marked as the highest consumption in the past eight years for gas. The increase of gas price since 2010 could be the reason of reduction of the demand of gas energy and the demand show declination since 2012 until it reach the lowest in 2016. Weather is also a price indicator for gas because weather can alter the way people use gas which could cause the changes in the total energy consumption.
@@ -531,8 +532,7 @@ plt.show()
 
 
     
-![png](output_26_0.png)
-    
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/output_26_0.png?raw=true)    
 
 
 This plotted plots shows that the mean percentage energy produced increase yearly since the past decade and increase rapidly since 2014 eventhough the household mean energy consumption decreases.
@@ -607,8 +607,7 @@ plt.show()
 
 
     
-![png](output_35_0.png)
-    
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/output_35_0.png?raw=true)   
 
 
 As expected, Amterdam consume the highest energy in Netherlands as it is the main city in Netherlands and has the highest total city population in the country. Overall, the energy consumption for each year doesn't differ much but it is possible to see the reduction of the total energy since 2014 for The Hague (S-GRAVENHAGE) and Rotterdam. The total energy usage of Amsterdam and Utrecht doesn't changed much except there is a reduction for Amsterdam from 2014 for a year only. The data of Eindoven from 2010 to 2016 seems suspicious  as the value differ so much. This could possibly because there is incomplete or missing data for that particular years.
@@ -633,7 +632,7 @@ plt.show()
 
 
     
-![png](output_37_0.png)
+![alt text](https://github.com/fatinshariff/Dutch_Energy/blob/master/images/output_37_0.png?raw=true)
     
 
 
